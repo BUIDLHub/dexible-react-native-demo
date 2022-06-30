@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "dexible-react-native-demo",
+    "slug": "dexible-react-native-demo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
