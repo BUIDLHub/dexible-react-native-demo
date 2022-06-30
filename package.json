@@ -9,16 +9,34 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@ethersproject/shims": "^5.6.0",
+    "crypto-browserify": "^3.12.0",
+    "dexible-sdk": "^0.1.36",
     "expo": "~45.0.0",
     "expo-splash-screen": "~0.15.1",
     "expo-status-bar": "~1.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.68.2",
+    "react-native-fast-crypto": "^2.2.0",
     "react-native-web": "0.17.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "babel-plugin-rewrite-require": "^1.14.5"
   },
-  "private": true
+  "private": true,
+  "resolutions": {
+    "dexible-algos": "../dexible-sdk/packages/dex-algos",
+    "dexible-common": "../dexible-sdk/packages/dex-common",
+    "dexible-core": "../dexible-sdk/packages/dex-core",
+    "dexible-gas-prices": "../dexible-sdk/packages/dex-gas-prices",
+    "dexible-logger": "../dexible-sdk/packages/dex-logger",
+    "dexible-order": "../dexible-sdk/packages/dex-order",
+    "dexible-policies": "../dexible-sdk/packages/dex-policies",
+    "dexible-quote": "../dexible-sdk/packages/dex-quote",
+    "dexible-sdk": "../dexible-sdk/packages/dex-sdk",
+    "dexible-token": "../dexible-sdk/packages/dex-token",
+    "dexible-web3": "../dexible-sdk/packages/dex-web3"
+  }
 }
